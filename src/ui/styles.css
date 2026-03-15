@@ -149,12 +149,12 @@ body {
 }
 
 .piece--king::after {
-  content: '\u265A';
+  content: '♛';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 1;
 }
 
