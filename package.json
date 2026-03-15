@@ -1,0 +1,15 @@
+{
+  "name": "checkers-novice-trainer",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/vitest run",
+    "test:watch": "node --experimental-vm-modules node_modules/.bin/vitest"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.0"
+  },
+  "dependencies": {
+    "puppeteer": "^24.39.1"
+  }
+}
